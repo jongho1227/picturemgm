@@ -102,13 +102,13 @@
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
-	$(function(){
+	/* $(function(){
 		$(".cancel").click(function(){
 		var a = confirm("삭제하시겠습니까?");
 			if(a==false){
 				return false;
 			}
-		})
+		}) */
 		
 		$(document).on("click",".img",function(){
 			$("#bigImg").find("img").remove();

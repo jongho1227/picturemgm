@@ -82,6 +82,13 @@ public class PictureController {
 		return entity;
 	}
 	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home() {
+		logger.info("==================home");
+		
+		return "Login";
+	}
+	
 	@RequestMapping(value = "/join", method = RequestMethod.GET)
 	public String join() {
 		logger.info("==================join");
